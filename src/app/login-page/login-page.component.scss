@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+div.container {
+    align-content: center;
+    border-radius: 2px;
+    max-width: 500px;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 100px;
+}
+
+form.login-form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-basis: 200px;
+    min-width: 50px;
+    min-height: 200px;
+    padding: 50px 50px 100px 50px;
+}
+
+input {
+    height: 30px;
+    background-color: transparent;
+    border: 1px;
+    border-bottom: solid 1px black;
+    color: black;
+  }
+  input:focus {
+    outline: none;
+    background-color: transparent;
+  }
+  .btn {
+    margin-top: 20px;
+    border: solid 2px black;
+    color: whitesmoke;
+  }
+  
+  .btn:hover {
+    background-color: #202020;
+    border: solid 3px black;
+    color: white;
+  }
